@@ -1,10 +1,31 @@
-body {
-  background: #0f0f0f;
-  color: white;
-  font-family: Arial, sans-serif;
-  padding: 40px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 48px;
+body {
+  background: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.theme {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.theme:hover {
+  border-bottom: 1px solid black;
 }
