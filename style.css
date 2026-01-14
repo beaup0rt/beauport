@@ -13,7 +13,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* page principale */
+/* Page principale */
 .container {
   display: flex;
   gap: 40px;
@@ -34,12 +34,12 @@ body {
 
 .center {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 400; /* plus léger */
   letter-spacing: 2px;
   text-transform: lowercase;
 }
 
-/* pages secondaires */
+/* Pages secondaires (photo, musique, montage) */
 .page {
   padding: 40px;
 }
@@ -61,3 +61,7 @@ body {
   width: 100%;
   display: block;
 }
+
+/* Audio et vidéo centrés */
+audio, video {
+  displa
