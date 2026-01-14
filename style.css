@@ -34,7 +34,7 @@ body {
 
 .center {
   font-size: 28px;
-  font-weight: 400; /* plus léger */
+  font-weight: 400; /* plus léger, pas gras */
   letter-spacing: 2px;
   text-transform: lowercase;
 }
@@ -64,4 +64,7 @@ body {
 
 /* Audio et vidéo centrés */
 audio, video {
-  displa
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
